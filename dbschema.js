@@ -27,6 +27,16 @@ let db = {
       body: "",
       createdAt: ""
     }
+  ],
+  notifications: [
+    {
+      recipient: 'akhila',
+      sender: 'akhil',
+      read: 'true | false',
+      postId: "",
+      type: 'like | comment',
+      createdAt: ""
+    }
   ]
 };
 
